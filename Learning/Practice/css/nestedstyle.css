@@ -1,0 +1,31 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px 20px;
+    /* position: absolute; */
+}
+nav li:hover{
+    background-color: rgb(127, 128, 129);
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav li .fst_nav{
+    display: none;
+    background-color: rgb(183, 121, 240);
+    padding: 10px;
+    position: absolute;
+}
+nav li:hover .fst_nav{
+    display: block;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20%;
+}

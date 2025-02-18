@@ -1,0 +1,21 @@
+A new repository setup step by step.
+
+1. echo "# Web_Development_Learning" >> README.md
+
+2. git init
+new repository start.
+
+3. git add README.md
+add files in repo. (git add .)
+
+4. git commit -m "first commit"
+A commit to author identity. how is author?
+
+5. git branch -M main
+Set main branch file.
+
+6. git remote add origin https://github.com/anowartoky/Web_Development_Learning.git
+Whare host GitHub files. set as default.
+
+7. git push -u origin main
+Permeation.
