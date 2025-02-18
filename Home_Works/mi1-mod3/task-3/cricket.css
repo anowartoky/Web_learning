@@ -1,0 +1,18 @@
+
+*{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.UAE{
+    font-weight: bold;
+}

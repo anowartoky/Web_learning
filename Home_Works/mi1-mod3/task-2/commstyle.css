@@ -1,0 +1,20 @@
+
+
+h2{
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    width: 350px;
+}
+
+label{
+    display: block;
+}
+
+select, textarea{
+    display: block;
+    margin-bottom:10px;
+    margin-top: 5px;
+}

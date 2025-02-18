@@ -1,0 +1,39 @@
+*{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#navber > li{
+    display: inline;
+    margin-right: 20px;
+}
+#navber > li > a{
+    text-decoration: none;
+}
+audio, video{
+    display: block;
+    margin-bottom: 20px;
+}
+video{
+    margin: auto;
+}
+iframe{
+    margin-top: 20px;
+    display: block;
+    text-align: justify;
+}
+section > p{
+    text-align: justify;
+}
+#news{
+    margin: 0;
+    padding: 0;
+}
+#figid > img{
+    width: 60%;
+}
+footer{
+    margin-top: 50px;
+}
+#copyr{
+    text-align: center;
+}

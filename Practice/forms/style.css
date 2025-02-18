@@ -1,0 +1,16 @@
+/* *{
+    background: #1E1E1E;
+    color: aliceblue;
+} */
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+div{
+    margin-bottom: 30px;
+}
+.inpt{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}

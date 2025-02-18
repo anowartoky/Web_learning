@@ -1,0 +1,21 @@
+
+#search{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+img{
+    display: block;
+    height: 200px;
+}
+
+#forms, #search{
+    margin: 50px;
+}
+
+#forms input, textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+

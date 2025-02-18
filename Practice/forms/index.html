@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="post">
+        <div id="tfm">
+            <label for="name">Inter your name: 
+                <input type="text" name="name" id="name" placeholder="Your name">
+            </label>
+            
+            <label for="mail">Inter your email:
+                <input type="email" name="email" id="mail" placeholder="Your email">
+            </label>
+
+            <label for="phone">Inter your phone:
+                <input type="email" name="email" id="phone" placeholder="Your phone">
+            </label>
+            
+        </div>
+        <div id="rfm">
+            <label for="male">
+                <input type="radio" name="gender" id="male">Male
+            </label>
+            
+            <label for="female">
+                <input type="radio" name="gender" id="female">Female
+            </label>
+
+            <label for="not_interested">
+                <input type="radio" name="gender" id="not_interested">Not Interested
+            </label>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>What is your Interest</legend>
+                <label for="sport">
+                    <input type="checkbox" name="interest" id="sport">Sports
+                </label>
+                <label for="food">
+                    <input type="checkbox" name="interest" id="food">Eating
+                </label>
+                <label for="travel">
+                    <input type="checkbox" name="interest" id="travel">Traveling
+                </label>
+                <label for="read">
+                    <input type="checkbox" name="interest" id="read">Reading
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your experience</legend>
+                <label for="com">Type your experience to improving our services. </label>
+                <textarea name="Comment" id="com" cols="30" rows="6" placeholder="Comment here"></textarea>
+            </fieldset>
+
+            <label class="inpt" for=""><input type="reset" value="Reset"></label>
+            <label class="inpt" for=""><input type="submit" value="Submit"></label>
+        </div>
+    </form>
+</body>
+</html>
