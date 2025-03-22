@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>article</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            margin: 20px;
+            display: flex;
+            gap: 20px;
+            border: 1px solid rgba(15, 14, 14, 0.5);
+        }
+        .container img{
+            width: 450px;
+        }
+        .content h2{
+            font-size: 30px;
+        }
+        .content p{
+            font-size: 18px;
+        }
+        .content button{
+            color: aliceblue;
+            font-size: 18px;
+            background-color: rgb(56, 56, 223);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        @media screen and (max-width: 576px) {
+            .container{
+                display: block;
+                margin: 5px 5px 20px 5px;
+            }
+            .container img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://img.freepik.com/free-photo/high-angle-fast-food-white-table_23-2148273120.jpg" alt="">
+        <div class="content">
+            <h2>Post Title will be here</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, voluptate? Rerum corrupti commodi reprehenderit esse accusamus a sit excepturi eligendi maiores, doloribus ratione quisquam odio eaque similique explicabo nam animi laudantium, debitis delectus possimus totam, asperiores pariatur quidem ex. Sit aspernatur vitae excepturi id, quaerat laborum. Id dolorum ea atque.</p>
+            <button>Read More</button>
+        </div>
+    </div>
+    <div class="container">
+        <img src="https://img.jakpost.net/c/2016/09/29/2016_09_29_12990_1475116504._large.jpg" alt="">
+        <div class="content">
+            <h2>Post Title will be here</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima iste eligendi officiis quam possimus sapiente ex unde perspiciatis deserunt ut, laborum accusantium voluptatibus veniam, quidem voluptatem incidunt molestiae eius reiciendis in vel suscipit laboriosam libero. Facere rerum ipsum voluptatibus atque corporis culpa quibusdam. Recusandae aliquam neque sint illum cupiditate earum.</p>
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>

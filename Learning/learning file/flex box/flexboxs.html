@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Grids</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            font-size: 30px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 8px;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+        nav a:hover{
+            background-color: rgba(236, 142, 191, 0.35);
+            color: rgb(70, 116, 131);
+        }
+        nav > a:last-child{
+            color: blue;
+        }
+        .child{
+            width: 50px;
+            height: 30px;
+            /* background-color: antiquewhite; */
+            text-align: center;
+            border: 2px solid aquamarine;
+        }
+        .parent{
+            display: grid;
+            grid-template-columns: 200px 100px 100px 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Grid layout</h1>
+    <nav>
+        <div class="navbar">
+            <a href="">Home</a>
+            <a href="">Blogs</a>
+            <a href="">Service</a>
+            <a href="">Contact</a>
+        </div>
+        <a href="">login</a>
+    </nav>
+    
+
+    <section class="inside">
+        <div class="parent">
+            <div class="child">1</div>
+            <div class="child">2</div>
+            <div class="child">3</div>
+            <div class="child">4</div>
+            <div class="child">5</div>
+            <div class="child">6</div>
+            <div class="child">7</div>
+            <div class="child">8</div>
+            <div class="child">9</div>
+            <div class="child">10</div>
+            <div class="child">11</div>
+            <div class="child">12</div>
+            <div class="child">13</div>
+            <div class="child">14</div>
+            <div class="child">15</div>
+            <div class="child">16</div>
+            <div class="child">17</div>
+            <div class="child">18</div>
+            <div class="child">19</div>
+            <div class="child">20</div>
+            <div class="child">21</div>
+            <div class="child">22</div>
+            <div class="child">23</div>
+            <div class="child">24</div>
+            <div class="child">25</div>
+            <div class="child">26</div>
+            <div class="child">27</div>
+            <div class="child">28</div>
+            <div class="child">29</div>
+            <div class="child">30</div>
+            <div class="child">31</div>
+            <div class="child">32</div>
+            <div class="child">33</div>
+            <div class="child">34</div>
+            <div class="child">35</div>
+            <div class="child">36</div>
+            <div class="child">37</div>
+            <div class="child">38</div>
+            <div class="child">39</div>
+            <div class="child">40</div>
+        </div>
+    </section>
+</body>
+</html>

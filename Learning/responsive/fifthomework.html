@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse column</title>
+    <style>
+        body {
+            margin: 50px;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .content img {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 576px) {
+            body {
+                margin: 5px;
+            }
+
+            .content {
+                grid-template-columns: 1fr;
+            }
+
+            .content img {
+                width: 100%;
+            }
+        /* It is very complicated topic. I need to more research in this */
+        
+            .content:nth-child(2) .article:first-child {
+                order: 2;
+            }
+
+            .content:nth-child(2) .article:last-child {
+                order: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="https://www.fastlaneeducation.com/uploads/posts/Canada-1702274627.jpg" alt="">
+            <div class="article">
+                <h2>How do we use it</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate ratione dolorem.
+                    Nesciunt aperiam temporibus culpa quas totam distinctio minima delectus exercitationem laboriosam
+                    consequatur. Provident aut voluptas eos, harum facilis sit quis eaque alias ut ratione, dicta
+                    tempora quasi nihil dolores dolorum fugiat hic? Quidem voluptatibus, aspernatur explicabo tempore
+                    odit vero quibusdam commodi et provident qui optio, iusto facilis aliquam assumenda ratione
+                    architecto voluptatum corrupti illum adipisci numquam fugit eligendi? Reprehenderit facere inventore
+                    laborum, quas harum quasi rem nesciunt consequatur unde a, possimus, quibusdam architecto. Atque
+                    consequuntur ratione beatae aliquid facilis hic delectus sed nesciunt consectetur, officia quam
+                    veritatis suscipit.</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="article">
+                <h2>How do we use it</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vero aliquid recusandae nulla
+                    incidunt, ut aut doloribus illum illo quisquam perferendis. Deserunt iste qui sit sapiente eaque cum
+                    odit aperiam porro eos. Rem cupiditate optio ducimus vitae esse alias laboriosam vero, debitis
+                    reprehenderit, dolor minus corporis et veniam magnam non sit enim. Error fugiat voluptatem nostrum
+                    id quam expedita, accusantium maiores ducimus blanditiis dolorem ullam labore nam! Consequatur
+                    aliquid culpa mollitia magnam veniam iusto vel quae qui beatae? Odit molestias suscipit cupiditate,
+                    magni soluta sint nam alias, labore veniam, ab hic? Ipsum qui consequuntur vitae et magnam. Aliquam,
+                    placeat incidunt.</p>
+            </div>
+            <div class="article">
+                <img src="https://i.natgeofe.com/k/e2ffc795-8b1f-4479-8c95-b6497e5ca4f2/canada-vancouver_4x3.jpg"
+                    alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
