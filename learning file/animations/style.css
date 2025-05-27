@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+@keyframes movement{
+    from{
+        left: 0;
+    }
+    to{
+        left: 700px;
+        background-color: black;
+    }
+}
+@keyframes bounce {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 300px;
+        left: 175px;
+        background-color: #c77f2d;
+    }
+    50%{
+        top: 0px;
+        left: 375px;
+        background-color: #e67086;
+    }
+    75%{
+        top: 300px;
+        left: 573px;
+        background-color: #7d5496;
+    }
+    100%{
+        top: 0px;
+        left: 700px;
+        background-color: #afb32b;
+    }
+}
+.stage{
+    background-color: aqua;
+    border: 1px solid black;
+    width: 800px;
+    height: 400px;
+}
+.ball{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.ball-one{
+    animation: movement 3s ease-in-out 1s infinite alternate;
+}
+.ball-two{
+    animation: bounce 5s ease-in-out 1s infinite alternate;
+}
